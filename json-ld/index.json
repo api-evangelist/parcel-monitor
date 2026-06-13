@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebAPI",
+  "name": "Parcel Monitor Tracking API",
+  "description": "RESTful JSON tracking API that aggregates shipment data from 1,000+ global carriers with automatic carrier detection, real-time webhook push notifications, and standardized tracking event normalization across 155+ event types and 170+ countries. Supports Java, Python, .NET, Node.js, and Ruby SDK integrations.",
+  "url": "https://www.parcelmonitor.com/track-parcel-express-tracking-api/",
+  "documentation": "https://www.parcelmonitor.com/track-parcel-express-tracking-api/",
+  "termsOfService": "https://www.parcelmonitor.com/terms-and-conditions/",
+  "provider": {
+    "@type": "Organization",
+    "name": "Parcel Monitor",
+    "url": "https://www.parcelmonitor.com",
+    "email": "info@parcelmonitor.com",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "url": "https://resources.parcelperform.com/contact",
+      "contactType": "customer support"
+    }
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.parcelmonitor.com/track-parcel-express-tracking-api/"
+  },
+  "keywords": [
+    "package tracking",
+    "parcel tracking",
+    "shipping",
+    "logistics",
+    "carriers",
+    "webhooks",
+    "real-time",
+    "e-commerce",
+    "delivery"
+  ]
+}
