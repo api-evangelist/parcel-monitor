@@ -1,0 +1,70 @@
+name: Parcel Monitor API Plans
+description: Pricing plans for the Parcel Monitor Tracking API. Parcel Monitor is
+  developed by Parcel Perform and offers enterprise-grade parcel tracking across 1,000+
+  global carriers. Pricing is contact-based for enterprise tiers; a free Shopify
+  app is available for merchants needing unlimited tracking without API integration.
+url: https://www.parcelmonitor.com/track-parcel-express-tracking-api/
+plans:
+  - name: Free (Shopify App)
+    description: Free unlimited parcel tracking via the Parcel Monitor Track & Notify
+      Shopify app. Covers 1,000+ carriers and 170+ countries with branded tracking
+      pages and automated email notifications. No API key required; integrates directly
+      with Shopify order data.
+    url: https://apps.shopify.com/parcel-monitor-track-notify
+    price: 0
+    currency: USD
+    unit: unlimited-trackings
+    period: month
+    features:
+      - Unlimited order tracking
+      - 1,000+ global carrier support
+      - 170+ country coverage
+      - Branded tracking pages
+      - Automated email notifications
+      - Real-time status updates
+      - Analytics dashboard
+      - No credit card required
+  - name: Developer / API Access
+    description: REST API access for developers and e-commerce integrations. Provides
+      RESTful JSON tracking API with automatic carrier detection, webhook push notifications,
+      and standardized tracking event normalization. Pricing is available on request
+      via the Parcel Perform sales team.
+    url: https://resources.parcelperform.com/contact
+    price: 0
+    currency: USD
+    unit: custom
+    period: custom
+    features:
+      - RESTful JSON tracking API
+      - 1,000+ carrier support worldwide
+      - Automatic carrier detection from tracking ID format
+      - Webhook push notifications for real-time updates
+      - 155+ standardized tracking event types
+      - 30+ language localization
+      - Local time zone conversion
+      - Java, Python, .NET, Node.js, Ruby SDK support
+      - Dedicated technical support
+  - name: Enterprise
+    description: Enterprise plan for large-scale logistics operations processing high
+      volumes of parcel tracking events. Includes advanced AI-driven analytics, disruption
+      detection, logistics performance benchmarking, and role-based access controls.
+      Covers 100+ billion annual parcel updates from 1,100+ global carriers with
+      99.9% uptime SLA.
+    url: https://resources.parcelperform.com/contact
+    price: 0
+    currency: USD
+    unit: custom
+    period: custom
+    features:
+      - 1,100+ global carrier integration
+      - 100+ billion annual parcel update capacity
+      - 160 country coverage
+      - 99.9% uptime SLA
+      - AI-driven disruption detection and monitoring
+      - Daily AI summaries with industry benchmarking
+      - Smart alerts across 30+ logistics metrics
+      - Role-based permissions and API access controls
+      - Shopify, WooCommerce, Adobe Commerce, Klaviyo, BigCommerce integrations
+      - Dedicated account management
+      - ISO 27001 and GDPR compliance
+      - 24/7 live support (phone, email, chat)

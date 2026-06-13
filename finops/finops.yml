@@ -1,0 +1,72 @@
+name: Parcel Monitor API FinOps
+description: Financial operations guidance for managing Parcel Monitor Tracking API
+  costs. Parcel Monitor (by Parcel Perform) uses a contact-based enterprise pricing
+  model; costs scale with tracking volume and carrier breadth. A free Shopify app
+  tier removes API cost for merchants not requiring direct API integration.
+url: https://www.parcelmonitor.com/track-parcel-express-tracking-api/
+model: enterprise-contract
+billing-period: custom
+currency: USD
+cost-drivers:
+  - name: Tracking Event Volume
+    description: Primary cost driver for API plans. Costs scale with the number of
+      parcel tracking registrations, status update pulls, and webhook events processed
+      per month or year. Enterprise contracts define volume tiers and per-event pricing.
+    unit: tracking-event
+    type: consumption
+  - name: Carrier Breadth
+    description: Accessing niche or regional carriers may incur higher per-event
+      costs compared to major global carriers. Contracts typically bundle a carrier
+      set appropriate to the customer's shipping geography.
+    type: tiered
+  - name: Feature Set
+    description: Advanced features such as AI disruption monitoring, logistics performance
+      benchmarking, and multi-system integrations (Shopify, Klaviyo, WooCommerce)
+      are priced as add-ons or included in higher enterprise tiers.
+    type: feature-based
+  - name: Support Level
+    description: 24/7 live support, dedicated account management, and onboarding
+      assistance are included in enterprise tiers but may be scoped to contract terms.
+    type: support-tier
+optimization-strategies:
+  - name: Use Free Shopify App for Merchant Use Cases
+    description: For Shopify merchants who only need order tracking and customer
+      notifications without custom API integration, the free Parcel Monitor Track
+      & Notify Shopify app provides unlimited tracking at zero cost.
+    url: https://apps.shopify.com/parcel-monitor-track-notify
+    impact: high
+  - name: Webhook-Driven Architecture
+    description: Register webhooks to receive push notifications for every carrier
+      event update rather than polling the tracking API repeatedly. This reduces
+      total API call volume, lowering both cost and latency.
+    impact: high
+  - name: Leverage Auto Carrier Detection
+    description: The smart tracking API automatically identifies the carrier from
+      tracking ID format and location, eliminating the need for separate carrier
+      lookup calls and reducing integration complexity.
+    impact: medium
+  - name: Normalize Events Server-Side
+    description: Use the built-in 155+ event type normalization and 30+ language
+      localization to avoid building and maintaining custom event mapping logic,
+      reducing engineering overhead and associated operational costs.
+    impact: medium
+  - name: Right-size Carrier Coverage
+    description: Contract for the carrier set matching your actual shipping lanes
+      rather than the full global portfolio. Re-evaluate carrier coverage annually
+      as your shipping geography evolves.
+    impact: medium
+  - name: Batch Shipment Registration
+    description: Where the API supports batch operations, register and update multiple
+      tracking numbers in a single request to minimize API call overhead and stay
+      within rate limits efficiently.
+    impact: low
+free-tier:
+  available: true
+  scope: shopify-app-only
+  requires-credit-card: false
+  description: Free unlimited tracking available via the Parcel Monitor Track & Notify
+    Shopify app for merchants. Direct REST API access requires an enterprise contract
+    with Parcel Perform.
+contact:
+  sales: https://resources.parcelperform.com/contact
+  support: https://www.parcelmonitor.com/

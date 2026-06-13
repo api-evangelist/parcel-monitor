@@ -1,0 +1,66 @@
+name: Parcel Monitor API Rate Limits
+description: Rate limiting and usage constraints for the Parcel Monitor Tracking
+  API. Specific rate limit values are determined at the enterprise contract level
+  and are not publicly disclosed. The API enforces standard HTTP rate limit responses
+  and supports webhook-driven architectures to reduce polling frequency.
+url: https://www.parcelmonitor.com/track-parcel-express-tracking-api/
+rate-limits:
+  - name: API Request Rate
+    description: Per-key request frequency limits are set based on contract tier
+      and volume requirements. Exceeding limits returns HTTP 429 Too Many Requests.
+      Exact thresholds are negotiated at onboarding for enterprise plans.
+    limit: contact-sales
+    unit: requests
+    period: second
+    scope: api-key
+    error-code: 429
+    error-message: Rate limit exceeded
+  - name: Carrier Detection Latency
+    description: Smart carrier auto-detection from tracking ID format and location
+      data operates in real time with very low latency. Covers approximately 1,000+
+      carriers globally without manual carrier code specification.
+    unit: carriers
+    scope: request
+  - name: Tracking Event Normalization
+    description: All carrier tracking events are normalized into a standardized set
+      of 155+ event types. Standardization includes location normalization and local
+      time zone conversion for each tracking update.
+    limit: 155
+    unit: event-types
+    scope: global
+  - name: Language Support
+    description: Tracking status updates and notifications are available in 30+ languages
+      with automatic localization applied server-side before webhook delivery or API
+      response.
+    limit: 30
+    unit: languages
+    scope: global
+  - name: Webhook Delivery
+    description: Webhook push notifications are delivered in real time for every
+      carrier tracking event update. Each event triggers a push to the registered
+      webhook endpoint URL. Retry logic and delivery guarantees are defined per enterprise
+      contract.
+    unit: events
+    period: real-time
+    scope: webhook-endpoint
+http-status-codes:
+  - code: 200
+    meaning: Successful request. Tracking data or acknowledgement returned in response
+      body.
+  - code: 400
+    meaning: Bad request. Missing or malformed tracking number, carrier code, or
+      request parameters.
+  - code: 401
+    meaning: Unauthorized. Invalid or missing API key in request headers.
+  - code: 403
+    meaning: Forbidden. API key lacks permission for the requested endpoint or operation.
+  - code: 404
+    meaning: Not found. Tracking number not registered or endpoint does not exist.
+  - code: 429
+    meaning: Too many requests. Rate limit exceeded for the current API key. Reduce
+      request frequency or implement webhook-based architecture.
+  - code: 500
+    meaning: Internal server error. Retry after a brief delay.
+  - code: 503
+    meaning: Service unavailable. Temporary outage or maintenance window. Monitor
+      status page for updates.

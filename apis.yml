@@ -1,0 +1,69 @@
+name: Parcel Monitor
+description: Global parcel tracking REST API aggregating real-time tracking data
+  from 1,000+ carriers worldwide, enabling e-commerce shipment visibility, delivery
+  analytics, and webhook-driven notifications across 170+ countries.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/parcel-monitor/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Shipping
+  - Package Tracking
+  - Logistics
+  - Carriers
+  - Delivery
+  - Webhooks
+  - E-Commerce
+apis:
+  - name: Parcel Monitor Tracking API
+    description: RESTful JSON tracking API that aggregates shipment data from 1,000+
+      global carriers with automatic carrier detection, real-time webhook push notifications,
+      and standardized tracking event normalization across 155+ event types and 170+
+      countries. Supports Java, Python, .NET, Node.js, and Ruby SDK integrations.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.parcelmonitor.com/track-parcel-express-tracking-api/
+    baseURL: https://api.parcelmonitor.com
+    tags:
+      - Package Tracking
+      - Shipping
+      - Logistics
+      - Carriers
+      - Webhooks
+      - Real-Time
+    properties:
+      - type: Documentation
+        url: https://www.parcelmonitor.com/track-parcel-express-tracking-api/
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/parcel-monitor/refs/heads/main/plans/plans.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/parcel-monitor/refs/heads/main/rate-limits/rate-limits.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/parcel-monitor/refs/heads/main/finops/finops.yml
+    contact:
+      - FN: Parcel Monitor Support
+        url: https://www.parcelmonitor.com/
+        email: info@parcelmonitor.com
+common:
+  - type: Website
+    url: https://www.parcelmonitor.com
+  - type: Developer
+    url: https://www.parcelmonitor.com/track-parcel-express-tracking-api/
+  - type: Documentation
+    url: https://www.parcelmonitor.com/track-parcel-express-tracking-api/
+  - type: Pricing
+    url: https://www.parcelmonitor.com/track-parcel-express-tracking-api/
+  - type: Signup
+    url: https://www.parcelmonitor.com/track-parcel-express-tracking-api/
+  - type: Contact
+    url: https://resources.parcelperform.com/contact
+  - type: TermsOfService
+    url: https://www.parcelmonitor.com/terms-and-conditions/
+  - type: PrivacyPolicy
+    url: https://www.parcelmonitor.com/privacy-policy/
+  - type: Blog
+    url: https://www.parcelmonitor.com/blog/
+maintainers:
+  - FN: API Evangelist
+    url: https://apievangelist.com
+    email: info@apievangelist.com
