@@ -1,5 +1,14 @@
 {
   "url": "https://www.parcelmonitor.com/blog/",
   "retrieved": "2026-06-13",
-  "posts": []
+  "posts": [],
+  "repo": "parcel-monitor",
+  "feeds": [
+    {
+      "source": "https://www.parcelmonitor.com/privacy-policy/",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
