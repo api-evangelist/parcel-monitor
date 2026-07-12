@@ -45,6 +45,8 @@ apis:
         url: https://www.parcelmonitor.com/
         email: info@parcelmonitor.com
 common:
+  - type: DomainSecurity
+    url: security/parcel-monitor-domain-security.yml
   - type: Website
     url: https://www.parcelmonitor.com
   - type: Developer
