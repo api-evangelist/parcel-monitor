@@ -2,7 +2,19 @@ name: Parcel Monitor
 description: Global parcel tracking REST API aggregating real-time tracking data
   from 1,000+ carriers worldwide, enabling e-commerce shipment visibility, delivery
   analytics, and webhook-driven notifications across 170+ countries.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/parcel-monitor.png
 url: https://raw.githubusercontent.com/api-evangelist/parcel-monitor/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
