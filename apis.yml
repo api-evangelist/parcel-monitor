@@ -25,6 +25,14 @@ tags:
   - Logistics
   - Carriers
   - Delivery
+  - Webhook
+  - E-Commerce
+tags_raw:
+  - Shipping
+  - Package Tracking
+  - Logistics
+  - Carriers
+  - Delivery
   - Webhooks
   - E-Commerce
 apis:
@@ -37,6 +45,13 @@ apis:
     humanURL: https://www.parcelmonitor.com/track-parcel-express-tracking-api/
     baseURL: https://api.parcelmonitor.com
     tags:
+      - Package Tracking
+      - Shipping
+      - Logistics
+      - Carriers
+      - Webhook
+      - Real-Time
+    tags_raw:
       - Package Tracking
       - Shipping
       - Logistics
