@@ -83,6 +83,12 @@ apis:
         url: https://www.parcelmonitor.com/
         email: info@parcelmonitor.com
 common:
+  - type: Plans
+    url: plans/plans.yml
+  - type: RateLimits
+    url: rate-limits/rate-limits.yml
+  - type: FinOps
+    url: finops/finops.yml
   - type: DomainSecurity
     url: security/parcel-monitor-domain-security.yml
   - type: Website
