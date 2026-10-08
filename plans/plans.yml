@@ -72,3 +72,35 @@ plans:
       - Dedicated account management
       - ISO 27001 and GDPR compliance
       - 24/7 live support (phone, email, chat)
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  units:
+  - negotiated
+  plans:
+  - name: Free (Shopify App)
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Developer / API Access
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - negotiated
+    periods:
+    - term
+  - name: Enterprise
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - negotiated
+    periods:
+    - term
