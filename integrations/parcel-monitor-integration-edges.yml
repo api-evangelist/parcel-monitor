@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/parcel-monitor/integrations
+- https://n8n.io/integrations/parcel-monitor/
+- https://composio.dev/toolkits/parcel-monitor
+- https://monid.ai/tools/parcel-monitor
+checked:
+- https://composio.dev/toolkits/parcel-monitor
+- https://monid.ai/tools/parcel-monitor
+- https://n8n.io/integrations/parcel-monitor/
+- https://zapier.com/apps/parcel-monitor/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
