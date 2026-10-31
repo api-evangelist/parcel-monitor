@@ -1,4 +1,4 @@
-# Parcel Monitor (parcel-monitor)
+# Parcel Monitor
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,62 +66,104 @@
 
 Global parcel tracking REST API aggregating real-time tracking data from 1,000+ carriers worldwide, enabling e-commerce shipment visibility, delivery analytics, and webhook-driven notifications across 170+ countries.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/parcel-monitor/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/parcel-monitor/refs/heads/main/apis.yml)
+**Areas:** Shipping · Package Tracking · Logistics · Carrier · Delivery · Webhook · E-Commerce
 
-## Tags
+## Parcel Monitor on APIs.io
 
-- Shipping
-- Package Tracking
-- Logistics
-- Carriers
-- Delivery
-- Webhooks
-- E-Commerce
+Everything profiled for Parcel Monitor is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/parcel-monitor/](https://apis.io/providers/parcel-monitor/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (1)
 
-- **Created:** 2026-06-13
-- **Modified:** 2026-06-13
+- [Parcel Monitor Tracking API](https://apis.io/apis/parcel-monitor/parcel-monitor-tracking-api/) — RESTful JSON tracking API that aggregates shipment data from 1,000+ global carriers with automatic carrier detection, real-time webhook push notifications,…
 
-## APIs
+### Published properties
 
-### Parcel Monitor Tracking API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-RESTful JSON tracking API that aggregates shipment data from 1,000+ global carriers with automatic carrier detection, real-time webhook push notifications, and standardized tracking event normalization across 155+ event types and 170+ countries. Supports Java, Python, .NET, Node.js, and Ruby SDK integrations.
+#### Security (1)
 
-- **Human URL:** [https://www.parcelmonitor.com/track-parcel-express-tracking-api/](https://www.parcelmonitor.com/track-parcel-express-tracking-api/)
-- **Base URL:** `https://api.parcelmonitor.com`
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags
+- [Parcel Monitor Domain Security](https://apis.io/security/parcel-monitor/parcel-monitor-domain-security/)
 
-- Package Tracking
-- Shipping
-- Logistics
-- Carriers
-- Webhooks
-- Real-Time
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://www.parcelmonitor.com/track-parcel-express-tracking-api/)
-- [Plans](https://raw.githubusercontent.com/api-evangelist/parcel-monitor/refs/heads/main/plans/plans.yml)
-- [Rate Limits](https://raw.githubusercontent.com/api-evangelist/parcel-monitor/refs/heads/main/rate-limits/rate-limits.yml)
-- [Fin Ops](https://raw.githubusercontent.com/api-evangelist/parcel-monitor/refs/heads/main/finops/finops.yml)
+- [Plans](https://apis.io/plans/parcel-monitor/plans/)
 
-## Common Properties
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rate Limits](https://apis.io/rate-limits/parcel-monitor/rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Finops](https://apis.io/finops/parcel-monitor/finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.parcelmonitor.com)
-- [Developer](https://www.parcelmonitor.com/track-parcel-express-tracking-api/)
 - [Documentation](https://www.parcelmonitor.com/track-parcel-express-tracking-api/)
 - [Pricing](https://www.parcelmonitor.com/track-parcel-express-tracking-api/)
-- [Signup](https://www.parcelmonitor.com/track-parcel-express-tracking-api/)
-- [Contact](https://resources.parcelperform.com/contact)
-- [Terms of Service](https://www.parcelmonitor.com/terms-and-conditions/)
-- [Privacy Policy](https://www.parcelmonitor.com/privacy-policy/)
 - [Blog](https://www.parcelmonitor.com/blog/)
+- [Terms of service](https://www.parcelmonitor.com/terms-and-conditions/)
+- [Privacy policy](https://www.parcelmonitor.com/privacy-policy/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** API Evangelist
-**Email:** info@apievangelist.com
-**URL:** https://apievangelist.com
+**Kin Score 9.0** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.0** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/parcel-monitor/](https://apis.io/providers/parcel-monitor/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Parcel Monitor: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/parcel-monitor/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
